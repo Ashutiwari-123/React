@@ -5,6 +5,7 @@ import './App.css'
 import Parent from './03_props/Parent'
 import Parent1 from './06_childreanProps/Parent1'
  import ParentA1 from './07_context2/ParentA1';
+import LifeCycleInFBC from './lifecycle/LifeCycleinFBC'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,7 +15,8 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent1/> */}
     {/* <ParentA1/> */}
-   <ParentA1/>
+   {/* <ParentA1/> */}
+   <LifeCycleInFBC/>
 
 
     </>
