@@ -10,20 +10,21 @@ import FetchUsers from "./APICALL/FetchUsers";
 import ComponentA from "./component/ComponentA";
 import ComponentB from "./component/ComponentB";
 import ComponentC from "./component/ComponentC";
+import Routing1 from "./routing/Routing1";
 function App() {
   // const [count, setCount] = useState(0);
-  const option ='c';
-  let content = <h1> hello how are you</h1>;
+  // const option ='c';
+  // let content = <h1> hello how are you</h1>;
 
-  if (option === "a") {
-    content = <ComponentA />;
-  } else if (option === "b") {
-    content = <ComponentB />;
-  } else if (option === "c") {
-    content = <ComponentC />;
-  } else {
-    content = <h1>other component</h1>;
-  }
+  // if (option === "a") {
+  //   content = <ComponentA />;
+  // } else if (option === "b") {
+  //   content = <ComponentB />;
+  // } else if (option === "c") {
+  //   content = <ComponentC />;
+  // } else {
+  //   content = <h1>other component</h1>;
+  // }
 
   return (
     <>
@@ -37,7 +38,9 @@ function App() {
       {/* <ComponentA/>
    <ComponentB/>
    <ComponentC/> */}
-      <div>{content}</div>
+      {/* <div>{content}</div> */}
+
+      <Routing1/>
     </>
   );
 }
